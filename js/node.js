@@ -3,7 +3,7 @@ const nav = document.querySelector(".nav");
 
 function showHamburger() {
   burger.classList.toggle("fa-times");
-  nav.classList.toggle("nav-active") 
+  nav.classList.toggle("nav-active"); 
 }
 
 
