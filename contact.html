@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!--   <div class="headbar"> -->
+      <img src="img/logo-nav.png" alt="logo green graphic on blue background white lettering Beans of Joy-Cannons Coffee Est. 2014" />
+      <h1>Cannons Coffee</h1>
+      <!--   </div> -->
+      <nav class="nav">
+        <ul>
+          <li class="navlink"><a href="index.html" target="_blank">Home</a></li>
+          <li class="navlink"><a href="latte.html" target="_blank">Coffee</a></li>
+          <li class="navlink"><a href="https://www.luxcoffee.com/" target="_blank">About</a></li>
+          <li class="navlink"><a href="mailto:aj@anniecannons.com" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+      <button onclick="showHamburger()" class="burger">
+        <i class="fa fa-bars"></i>
+      </button>
+    </header>
+<div class="contact-page-grid-container">
+     <h1>We would love to hear from you!</h1>
+        <p>Please fill out the form below and we will get back to you within 72 hours</p>
+    
+    <form action="" method="get" id="form">
+        <div class="contact-page-form-wrapper">
+            <p class="required">*Required</p>
+            <div class="customer-info">
+                <div class="customer-input-wrapper">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="customer-input-wrapper">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            	<fieldset class="info-request">
+                    <legend> How can we help?</legend>
+                    <div class="option1">
+                        <input type="checkbox" id="option1" value="optoin1" name="employment">
+                        <label class="light" for="option1">Employment</label>
+                    </div>
+                    <div class="option2">
+                        <input type="checkbox" id="option2" value="option2" name="wholesale-coffee">
+                        <label class="light" for="option2">Whoelsale Coffee</label>
+                    </div>
+                    <div class="option3">
+                        <input type="checkbox" id="option3" value="option3" name="art-shows">
+                        <label class="light" for="option3">Art Shows</label>
+                    </div>
+                </fieldset>
+                <div class="contact-page-comments">
+                    <label for="comment">Comment</label>
+                    <textarea rows="4" cols="30" name="comment" form="usrform">Enter text here...</textarea>
+                </div>
+            </div>
+            <div class="conact-page-button-wrapper">
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
+    <footer>
+      <img src="img/logo-footer.png" alt="logo green graphic on blue background white lettering Beans of Joy-Cannons Coffee Est. 2014" />
+      <p>&copy; 2024 Cannons Coffee. All Rights Reserved. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="js/node.js"></script>
+</body>
+</html>
