@@ -189,6 +189,8 @@ form {
 
 .customer-input-wrapper input {
   width: 66%;
+  border: 2px solid var(--catalina);
+  border-radius: 5px;
 }
 
 .contact-page-form-wrapper .required {
@@ -206,6 +208,8 @@ form {
 .contact-page-comments textarea {
   max-width: 90%;
   min-width: 90%;
+  border: 2px solid var(--catalina);
+  border-radius: 5px;
 }
 
 .conact-page-button-wrapper {
